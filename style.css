@@ -17,7 +17,7 @@ body{
   color: var(--dark);
 }
 img{
-  width: 100px;
+  width: 100%;
   display: block;
 }
 .container{
@@ -28,6 +28,22 @@ img{
 /*header styling start*/
 header{
   height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
-  background-image: url();
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/banner-bg.jpg)center/cover no-repeat fixed;
+
+}
+.navbar{
+  background: rgba(0,0,0,0.6);
+  padding: 1.2em;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+.navigation.logo a{
+  color: #fff;
+  font-style: 2rem;
+  display: block;
+  text-decoration: none;
+  font-family: var(--Playfair);
+  letter-spacing: 1px;
 }
